@@ -1,3 +1,6 @@
 .banner-size{
     height: 450px;
 }
+.banner-title{
+    text-align: start;
+}
