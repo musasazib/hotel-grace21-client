@@ -1,0 +1,12 @@
+.main-nav-bar{
+    background-color: #FFFFFF;
+}
+.right-nav-bar{
+    margin-left: 140px;
+}
+.left-nav-bar{
+    margin-right: 140px;
+}
+.nav-link-color{
+    color: red;
+}

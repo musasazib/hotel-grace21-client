@@ -5,14 +5,14 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 const Header = () => {
     return (
         // ----- Navigation ----- //
-        <div className='main-nav-bar'>
-            <Navbar bg="light" expand="lg">
-                <Container fluid>
+        <div className="main-nav-bar">
+            <Navbar expand="lg">
+                <Container className="nav-link-color" fluid>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         {/* ----- Right Site Nav bar ----- */}
                         <Nav
-                            className="me-auto my-2 my-lg-0"
+                            className="me-auto my-2 my-lg-0 right-nav-bar nav-link-color"
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
@@ -30,7 +30,7 @@ const Header = () => {
                         </Nav>
                         {/* ----- Left Site Nav bar ----- */}
                         <Nav
-                            className="ml-auto my-2 my-lg-0"
+                            className="ml-auto my-2 my-lg-0 left-nav-bar"
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
